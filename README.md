@@ -19,6 +19,15 @@ Output Format (Matcher)
 - The matcher prints n lines, one per hospital i
 - Each line is: i j meaning hospital i is matched to student j
 
+Repository Layout
+- src/matcher.py : hospital-proposing Gale–Shapley (Task A)
+- src/verifier.py : validity + stability checker (Task B)
+- src/scalability.py : timing + graph generation (Task C)
+- data/example.in : example input
+- data/example.out : expected output for example.in
+- data/edge_case_n1.in, data/edge_case_n1.out : additional edge-case test (n=1)
+- data/scalability_graph.png : Task C graph output
+
 Running the Matcher (Task A)
 - From the repository root:
   python src/matcher.py data/example.in
